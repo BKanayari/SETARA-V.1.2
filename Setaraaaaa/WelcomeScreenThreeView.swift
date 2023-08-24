@@ -17,7 +17,6 @@ struct WelcomeScreenThreeView: View {
                         .scaledToFit()
                     Text("Help you to split bill with your friend")
                         .fontWeight(.medium)
-                    
                     HStack {
                         Capsule()
                             .fill(Color.gray)
@@ -25,7 +24,6 @@ struct WelcomeScreenThreeView: View {
                         Capsule()
                             .fill(Color.orange)
                             .frame(width: 100, height: 10)
-                        
                         Capsule()
                             .fill(Color.gray)
                             .frame(width: 50, height: 10)
@@ -33,7 +31,7 @@ struct WelcomeScreenThreeView: View {
                     .padding(.bottom)
                     .padding(.bottom)
                     Text("Sometimes Split bill is challenging if you don't know how to do it fairly and lorem lorem lorem lorem lorem lorem lorem")
-                        .frame(alignment:Alignment.trailing)
+                        .frame(alignment: Alignment.trailing)
                         .padding(.horizontal)
                         .padding()
                     Button {
@@ -55,7 +53,6 @@ struct WelcomeScreenThreeView: View {
             }
         }
     }
-    
 }
 
 struct WelcomeScreenThreeView_Previews: PreviewProvider {
